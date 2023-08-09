@@ -2,40 +2,36 @@
 Scan the music library file structure and save it to .csv
 '''
 import os
+from tinytag import TinyTag
 
-path = "..\Music"
-line = ""
+
+path = r"..\muzik"
 lines = []
 
-with os.scandir(path) as music:
-    # iterate through first level of the music library; these should be "artists"
-    for m in music:
-        if m.is_dir():
-            line += m.name
 
-            # for each "artist", iterate through their "albums"
-            with os.scandir(m.path) as artist:
-                for a in artist:
-                    if a.is_dir():
-                        line += "," + a.name
+def scan_folder(_path):
 
-                        # for each album, iterate through songs
-                        with os.scandir(a.path) as album:
-                            for song in album:
-                                if song.is_file() and song.name.endswith(".mp3"):
-                                    line += "," + song.name.rpartition(".")[0]
+    with os.scandir(_path) as folder:
+        for f in folder:
+            if f.is_file() and f.name.endswith((".mp3", ".m4a", ".aac", ".wav", ".flac")):
+                tag = TinyTag.get(f)
+                lines.append(f"{tag.artist},{tag.album},{tag.title},{tag.track},{tag.year},{tag.genre}")
+            
+            elif f.is_dir():
+                scan_folder(f"{_path}\{f.name}")
 
-                                    lines.append(line)
-                                    
-                                    line = m.name + "," + a.name
 
-                        line = m.name
+scan_folder(path)
 
-            line =""
-    
+
 with open("library.csv", "w") as file:
+    file.write("Artist,Album,Title,Track,Year,Genre\n")
     for line in lines:
         file.write(f"{line}\n")
+
+
+
+
 
 
         

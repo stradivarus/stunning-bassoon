@@ -1,30 +1,83 @@
-Artist 1,Album 1-1,song0
-Artist 1,Album 1-1,song1
-Artist 1,Album 1-1,song2
-Artist 1,Album 1-2,song0
-Artist 1,Album 1-2,song1
-Artist 1,Album 1-2,song2
-Artist 1,Album 1-3,song0
-Artist 1,Album 1-3,song1
-Artist 1,Album 1-3,song2
-Artist 2,Album 2-1,song0
-Artist 2,Album 2-1,song1
-Artist 2,Album 2-1,song2
-Artist 2,Album 2-2,song0
-Artist 2,Album 2-2,song1
-Artist 2,Album 2-2,song2
-Artist 3,Album 3-1,song0
-Artist 3,Album 3-1,song1
-Artist 3,Album 3-1,song2
-Artist 3,Album 3-2,song0
-Artist 3,Album 3-2,song1
-Artist 3,Album 3-2,song2
-Artist 3,Album 3-3,song0
-Artist 3,Album 3-3,song1
-Artist 3,Album 3-3,song2
-Artist 3,Album 3-4,song0
-Artist 3,Album 3-4,song1
-Artist 3,Album 3-4,song2
-Artist 4,Album 4-1,song0
-Artist 4,Album 4-1,song1
-Artist 4,Album 4-1,song2
+Artist,Album,Title,Track,Year,Genre
+Ben Howard,Old Pine,Old Pine,01,2011,Folk
+Ben Howard,Old Pine,Further Away,02,2011,Folk
+Ben Howard,Old Pine,Follaton Wood,03,2011,Folk
+Ben Howard,Old Pine,Three Tree Town,04,2011,Folk
+Cat Power,You Are Free,I Don't Blame You,1,2003,Alternative
+Cat Power,You Are Free,Free,2,2003,Alternative
+Cat Power,You Are Free,Good Woman,3,2003,Alternative
+Cat Power,You Are Free,Speak for Me,4,2003,Alternative
+Cat Power,You Are Free,Werewolf,5,2003,Alternative
+Cat Power,You Are Free,Fool,6,2003,Alternative
+Cat Power,You Are Free,He War,7,2003,Alternative
+Cat Power,You Are Free,Shaking Paper,8,2003,Alternative
+Cat Power,You Are Free,Babydoll,9,2003,Alternative
+Cat Power,You Are Free,Maybe Not,10,2003,Alternative
+Cat Power,You Are Free,Names,11,2003,Alternative
+Cat Power,You Are Free,Half of You,12,2003,Alternative
+Cat Power,You Are Free,Keep on Runnin' (Crawlin' Black Spider),13,2003,Alternative
+Cat Power,You Are Free,Evolution,14,2003,Alternative
+CNC,No Mood,No Mood,01,2009,Rock
+CNC,No Mood,Plot Device 1,02,2009,Rock
+CNC,No Mood,Magenta Ants,03,2009,Rock
+CNC,No Mood,Plot Device 2,04,2009,Rock
+CNC,No Mood,Vegas,05,2009,Rock
+CNC,No Mood,Plot Device 3,06,2009,Rock
+CNC,No Mood,Xenility,07,2009,Rock
+Counting Crows,August and Everything After,Round Here,01,1993,Pop
+Counting Crows,August and Everything After,Omaha,02,1993,Pop
+Counting Crows,August and Everything After,Mr. Jones,03,1993,Pop
+Counting Crows,August and Everything After,Perfect Blue Buildings,04,1993,Pop
+Counting Crows,August and Everything After,Anna Begins,05,1993,Pop
+Counting Crows,August and Everything After,Time and Time Again,06,1993,Pop
+Counting Crows,August and Everything After,Rain King,07,1993,Pop
+Counting Crows,August and Everything After,Sullivan Street,08,1993,Pop
+Counting Crows,August and Everything After,Ghost Train,09,1993,Pop
+Counting Crows,August and Everything After,Raining in Baltimore,10,1993,Pop
+Counting Crows,August and Everything After,A Murder of One,11,1993,Pop
+Alice In Chains,Dirt,Angry Chair,None,None,None
+Alice In Chains,Dirt,Dam That River,None,None,None
+Alice In Chains,Dirt,Dirt,None,None,None
+Alice In Chains,Dirt,Down In A Hole,None,None,None
+Alice In Chains,Dirt,God Smack,None,None,None
+Alice In Chains,Dirt,Hate To Feel,None,None,None
+Alice In Chains,Dirt,Junkhead,None,None,None
+Alice In Chains,Dirt,Rain When I Die,None,None,None
+Alice In Chains,Dirt,Rooster,None,None,None
+Alice In Chains,Dirt,Sickman,None,None,None
+Alice In Chains,Dirt,Them Bones,None,None,None
+Alice In Chains,Dirt,Untitled,None,None,None
+Alice In Chains,Dirt,Would,None,None,None
+Mazzy Star,She Hangs Brightly,Holah,01,1990,Dream
+Mazzy Star,She Hangs Brightly,Blue Flower,02,1990,Dream
+Mazzy Star,She Hangs Brightly,Ride It On,03,1990,Dream
+Mazzy Star,She Hangs Brightly,She Hangs Brightly,04,1990,Dream
+Mazzy Star,She Hangs Brightly,I'm Sailin',05,1990,Dream
+Mazzy Star,She Hangs Brightly,Give You My Lovin',06,1990,Dream
+Mazzy Star,She Hangs Brightly,Be My Angel,07,1990,Dream
+Mazzy Star,She Hangs Brightly,Taste Of Blood,08,1990,Dream
+Mazzy Star,She Hangs Brightly,That Highway,09,1990,Dream
+Mazzy Star,She Hangs Brightly,Free,10,1990,Dream
+Mazzy Star,She Hangs Brightly,Before I Sleep,11,1990,Dream
+Mazzy Star,So Tonight That I Might See,Fade Into You,01,1993,Dream
+Mazzy Star,So Tonight That I Might See,Bells Ring,02,1993,Dream
+Mazzy Star,So Tonight That I Might See,Mary of Silence,03,1993,Dream
+Mazzy Star,So Tonight That I Might See,Five String Serenade,04,1993,Dream
+Mazzy Star,So Tonight That I Might See,Blue Light,05,1993,Dream
+Mazzy Star,So Tonight That I Might See,She's My Baby,06,1993,Dream
+Mazzy Star,So Tonight That I Might See,Unreflected,07,1993,Dream
+Mazzy Star,So Tonight That I Might See,Wasted,08,1993,Dream
+Mazzy Star,So Tonight That I Might See,Into Dust,09,1993,Dream
+Mazzy Star,So Tonight That I Might See,So Tonight That I Might See,10,1993,Dream
+Mazzy Star,Among My Swan,Disappear,01,1996,Dream
+Mazzy Star,Among My Swan,Flowers In December,02,1996,Dream
+Mazzy Star,Among My Swan,Rhymes Of An Hour,03,1996,Dream
+Mazzy Star,Among My Swan,Cry, Cry,04,1996,Dream
+Mazzy Star,Among My Swan,Take Everything,05,1996,Dream
+Mazzy Star,Among My Swan,Still Cold,06,1996,Dream
+Mazzy Star,Among My Swan,All Your Sisters,07,1996,Dream
+Mazzy Star,Among My Swan,I've Been Let Down,08,1996,Dream
+Mazzy Star,Among My Swan,Roseblood,09,1996,Dream
+Mazzy Star,Among My Swan,Happy,10,1996,Dream
+Mazzy Star,Among My Swan,Umbilical,11,1996,Dream
+Mazzy Star,Among My Swan,Look On Down From The Bridge,12,1996,Dream
